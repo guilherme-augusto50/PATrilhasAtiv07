@@ -10,9 +10,6 @@ class Program
     	
     	int[,] matriz = new int[NumL,NumC];
     	
-    	//Console.WriteLine("Escreva um número");
-    	
-    	
     	for (int i = 0; i < NumL; i++) {
     		for (int j = 0; j < NumC; j++) {
     			matriz[i, j] = int.Parse(Console.ReadLine());
