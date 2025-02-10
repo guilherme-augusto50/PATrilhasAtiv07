@@ -21,8 +21,8 @@ class Program
     	Console.WriteLine("Elementos na diagonal principal");
     	for (int i = 0; i < 10; i++) {
     		Console.Write(matriz[i,i] + " ");
-    		Console.WriteLine();
     	}	
+    	Console.WriteLine();
     Console.WriteLine("Presione algo para sair . . . ");
 	Console.ReadKey(true);
     }
